@@ -108,7 +108,7 @@ function App() {
     <div style={styles.page}>
       <header style={styles.header}>
         <h1 style={styles.title}>⚡ Full-Stack Developer Dashboard</h1>
-        <p style={styles.subtitle}>All 6 Level Tasks Integrated into One Unified App</p>
+        <p style={styles.subtitle}>All 6 Tasks Integrated into One Unified App</p>
       </header>
 
       <div style={styles.grid}>
@@ -215,7 +215,7 @@ function App() {
   );
 }
 
-// Inline Styling Object (Modern Clean UI)
+// Inline Styling Object (Fixed 2 Cards per Row Layout)
 const styles = {
   page: {
     backgroundColor: '#0f172a',
@@ -241,9 +241,9 @@ const styles = {
   },
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+    gridTemplateColumns: 'repeat(2, 1fr)', // Row එකකට Cards 2ක් පමණක් සිටින ලෙස සකසා ඇත
     gap: '24px',
-    maxWidth: '1200px',
+    maxWidth: '1100px',
     margin: '0 auto'
   },
   card: {
