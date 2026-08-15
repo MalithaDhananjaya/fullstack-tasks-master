@@ -31,11 +31,11 @@ npx nodemon server.js
 Server runs on `http://localhost:5000`
 
 ### 2. Start the Frontend Client
-\```bash
+## \```bash
 cd client
 npm install
 npm start
-\```
+## \```
 React app opens on `http://localhost:3000`
 
 ---
