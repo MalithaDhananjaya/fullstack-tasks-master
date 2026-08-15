@@ -23,20 +23,26 @@ This repository contains a full-stack web application integrating **REST API**, 
 ## 🏃 How to Run the Project Locally
 
 ### 1. Start the Backend Server
-\```bash
+
+```bash
 cd fullstack-tasks
 npm install
 npx nodemon server.js
-\```
-Server runs on `http://localhost:5000`
+```
+
+> **Backend Server URL:** `http://localhost:5000`
+
+---
 
 ### 2. Start the Frontend Client
-\```bash
+
+```bash
 cd client
 npm install
 npm start
-\```
-React app opens on `http://localhost:3000`
+```
+
+> **React App URL:** `http://localhost:3000`
 
 ---
 
