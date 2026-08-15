@@ -14,9 +14,9 @@ This repository contains a full-stack web application integrating **REST API**, 
 ## 🛠️ Integrated Tasks Overview
 
 - **Level 1 (Tasks 1 & 2):** Basic Express Server setup & React connectivity via REST API.
-- **Level 2 (Tasks 1 & 2):** Secure JWT Sign-up/Login flow & Protected Route Authorization.
-- **Level 3 (Task 2):** WebSockets Real-Time Live Chat with `Socket.io`.
-- **Level 3 (Task 3):** GraphQL Schema, Queries, and Mutations for Task Management.
+- **Level 2 (Tasks 3 & 4):** Secure JWT Sign-up/Login flow & Protected Route Authorization.
+- **Level 3 (Task 5):** WebSockets Real-Time Live Chat with `Socket.io`.
+- **Level 3 (Task 6):** GraphQL Schema, Queries, and Mutations for Task Management.
 
 ---
 
